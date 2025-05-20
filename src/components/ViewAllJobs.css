@@ -1,0 +1,28 @@
+.view-all-jobs-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 32rem; /* 512px */
+  margin-top: 2.5rem; /* 40px */
+  margin-bottom: 2.5rem; /* 40px */
+  padding-left: 1.5rem; /* 24px */
+  padding-right: 1.5rem; /* 24px */
+}
+
+.view-all-jobs-link {
+  display: block;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem; /* 12px */
+  text-decoration: none;
+  transition: background 0.2s;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.view-all-jobs-link:hover,
+.view-all-jobs-link:focus {
+  background: #374151; /* gray-700 */
+  color: #fff;
+}

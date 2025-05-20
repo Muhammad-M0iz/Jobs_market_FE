@@ -1,0 +1,155 @@
+.jobpage-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.jobpage-backlink {
+  color: #6366f1;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+.jobpage-backlink:hover,
+.jobpage-backlink:focus {
+  color: #4f46e5;
+}
+.jobpage-backicon {
+  margin-right: 0.5rem;
+}
+
+.jobpage-section-bg {
+  background: #eef2ff;
+}
+
+.jobpage-container-lg {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.jobpage-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .jobpage-grid {
+    grid-template-columns: 70% 30%;
+  }
+}
+
+.jobpage-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+.jobpage-card-main {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .jobpage-card-main {
+    text-align: left;
+  }
+}
+.jobpage-card-spaced {
+  margin-top: 1.5rem;
+}
+
+.jobpage-muted {
+  color: #6b7280;
+}
+.jobpage-mb {
+  margin-bottom: 1rem;
+}
+.jobpage-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.jobpage-location-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .jobpage-location-row {
+    justify-content: flex-start;
+  }
+}
+.jobpage-location-icon {
+  color: #c2410c;
+  margin-right: 0.25rem;
+}
+.jobpage-location-text {
+  color: #c2410c;
+}
+
+.jobpage-section-heading {
+  color: #3730a3;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.jobpage-section-heading-sm {
+  margin-bottom: 0.5rem;
+}
+.jobpage-sidebar-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.jobpage-company-name {
+  font-size: 2rem;
+}
+.jobpage-my {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.jobpage-my-lg {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.jobpage-contact-info {
+  background: #e0e7ff;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+.jobpage-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  margin-top: 1rem;
+  outline: none;
+  box-shadow: 0 0 0 0 transparent;
+  transition: background 0.2s;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.jobpage-btn-edit {
+  background: #6366f1;
+  color: #fff;
+}
+.jobpage-btn-edit:hover,
+.jobpage-btn-edit:focus {
+  background: #4f46e5;
+}
+.jobpage-btn-delete {
+  background: #ef4444;
+  color: #fff;
+}
+.jobpage-btn-delete:hover,
+.jobpage-btn-delete:focus {
+  background: #dc2626;
+}
